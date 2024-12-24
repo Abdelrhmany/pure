@@ -1,5 +1,24 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const mongoose = require('mongoose');
 
 const itemSchema = new mongoose.Schema({
@@ -35,7 +54,7 @@ const itemSchema = new mongoose.Schema({
               ],
 
    },
-  subcategory: { type: String, required: true },
+  subcategory: { type: String, required: false },
   sellerid: { type: String, required: true },
   sellername: { type: String, required: true },
 });
