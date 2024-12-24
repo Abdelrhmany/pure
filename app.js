@@ -135,7 +135,7 @@ app.get("/", (req, res) => {
 <body>
     <div class="container">
         <h1>Welcome</h1>
-        <a href="/auth/google">Login with Google</a>
+        <a href="/auth/google">Login withh Google</a>
     </div>
 </body>
 </html>
